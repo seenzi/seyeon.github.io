@@ -1,0 +1,327 @@
+body {
+    background-color: #efe7e3;
+}
+
+.frame{
+    margin: 30px 150px;
+    display: felx;
+    flex-direction: column;
+}
+
+/*navigator*/
+.navigator{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+li {
+    display: inline;
+    align-self: center;
+    margin: 0;
+    margin-left: 15px;
+
+}
+ul {
+    margin: 0;
+}
+
+.site_name {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #c2b4ab;
+}
+.nav_menu {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+a {
+    color: midnightblue;
+    text-decoration: none;
+}
+a:hover{
+    color: pink;
+    transition: 0.3s;
+}
+
+.dashboard {
+    display: felx;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+/*그림 배치 조정하기*/
+.hello_imogi {
+    display: flex;
+    width: 220px;
+    height: 220px;
+    float: right;
+}
+
+.comment {
+    display: inline;
+    font-family: 'Montserrant';
+    font-weight: 700;
+    font-size: 25px
+}
+
+.sample {
+    background-color: pink;
+}
+
+.sample:hover {
+    background-color: transparent;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    transition: none;
+}
+
+.highright {
+    color: white;
+    -webkit-text-stroke: 1px black;
+    transition: none;
+}
+
+.highright:hover {
+    background-color: pink;
+    -webkit-text-stroke: 0.2px black;
+    color: black;
+    transition: none;
+}
+
+.type1:hover {
+    background-color: rgb(225, 255, 164);
+}
+.type2:hover {
+    background-color: rgb(172, 220, 239);
+}
+.type3:hover {
+    background-color: rgb(255, 191, 255);
+}
+
+.english_comment{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 100px;
+    font-size: 15px;
+    font-style: italic;
+
+    letter-spacing: -0.3px;
+    margin-top: 40px;
+    color: gray;
+}
+
+@media screen and (max-width: 767px) {
+body { width: auto }
+#menu { width: auto; float: none; }
+#section { width: auto; float: none; }
+}
+
+.recent_menu {
+    font-family: 'Montserrant', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.footer{
+    display: flex;
+    margin-top: 60px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.footer_contect{
+    margin-top: 60px;
+    font-family: 'Montserrant', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.informations>a {
+    font-family: 'Montserrant', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.informations>a:hover{
+    color: pink;
+}
+
+.insert_img{
+    display: inline;
+    width: 50px;
+}
+
+/* # ABOUT page */
+
+.profile-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+    margin: 100px 100px;
+}
+
+#profile-picture{
+    width: 400px;
+    margin-right: 60px;
+}
+
+.introduction >h2 {
+    margin: 0px;
+    font-family: 'Montserrant', sans-serif;
+    font-size: 35px;
+}
+
+.introduction > p {
+    font-family: 'Montserrant', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+#capability {
+    font-family: 'Montserrant', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: italic;
+
+    line-height: 30px;
+
+}
+
+.value_menu {
+    font-family: 'Montserrant', sans-serif;
+    font-size: 35px;
+    margin: 30px 100px;
+    margin-top: 0px;
+}
+
+.value_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 100px 150px;
+    margin-top: 20px;
+}
+.value {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.value_name {
+    font-family: 'Montserrant', sans-serif;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 5px;    
+    margin-left: 16px;
+}
+
+.value_comment {
+    font-family: 'Montserrant', sans-serif;
+    margin-left: 16px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.precious_icon {
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+    border: 2px solid #c2b4ab;
+    border-radius: 100px;
+}
+
+.my_mail {
+    font-family: 'Montserrant', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+
+.my_mail:hover {
+    color: gray;
+}
+
+.hobby_menu {
+    font-family: 'Montserrant', sans-serif;
+    font-size: 35px;
+    margin: 30px 100px;
+    margin-top: 0px;
+}
+
+.hobby_section {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 100px;
+}
+
+.hobby {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 60px;
+}
+
+.hobby_icon {
+    width: 500px;
+}
+
+.hobby_intro {
+    margin: 0px 20px;
+}
+
+.hobby_name{
+    font-family: 'Montserrant', sans-serif;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.hobby_comment {
+    font-family: 'Montserrant', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.infor_menu {
+    font-family: 'Montserrant', sans-serif;
+    font-size: 35px;
+    margin: 30px 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid black;
+}
+
+.infor_section {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 100px;
+}
+
+.infor {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.academic_background{
+    font-family: 'Montserrant', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.career {
+    font-family: 'Montserrant', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+}
