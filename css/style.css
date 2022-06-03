@@ -34,7 +34,7 @@ a {
 	align-items: center;
 }
 
-.logo a {
+.logo > a {
 color: #c2b4ab;
 }
 
